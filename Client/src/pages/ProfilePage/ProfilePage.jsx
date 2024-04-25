@@ -94,7 +94,7 @@ export default function Profile() {
             </IconButton>
           </label>
         </div>
-        <p>Member since: {new Date(Number(currentUser.userInfo[0].date_created)).toLocaleString()}</p>
+        <p>Member since: {new Date(currentUser.userInfo[0].date_created).toLocaleString()}</p>
         <div className="input">
           <div className="input-container">
             {
